@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
+
 body,
 .body {
     font-family: Roboto, sans-serif;
@@ -9,6 +15,14 @@ body,
     background-color: #FFFFFF;
 }
 
+.container {
+    max-width: 100%;
+    padding-left: 0; 
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -17,13 +31,28 @@ body,
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin: auto;
 }
 
 .logo span {
     color: #2E2F42;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
 .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+
+    
+}
+
+.nav-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -31,17 +60,36 @@ body,
     color: #2E2F42;
 }
 
+
 .nav-list:hover,
 .nav-list:focus {
     color: #404BBF;
 }
 
 .address-list {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.address-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    white-space: nowrap;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 24px 156px;
 }
 
 .address-list:hover,
@@ -49,13 +97,25 @@ body,
     color: #404BBF;
 }
 
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px; 
+}
+    
+
+
 .titel-one {
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    
+    
 }
 
 .button {
@@ -67,6 +127,11 @@ body,
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
+    margin: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    
+    
 }
 
 .button:hover,
@@ -89,6 +154,7 @@ body,
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
 }
 
 .paragraph {
@@ -105,7 +171,11 @@ body,
     color: #F4F4FD;
 }
 
-.section-one,
+.section-one {
+    background-color: #2E2F42;
+    padding: 188px 0 292px 0;
+}
+
 footer {
     background-color: #2E2F42;
 }
@@ -121,3 +191,4 @@ footer {
 .footer span {
     color: #f4f4fd;
 }
+
