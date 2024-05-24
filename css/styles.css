@@ -246,6 +246,8 @@ footer {
     width: calc((100% - 72px) / 4);
 }
 
+
+
 .section-three-list-item-text {
     display: flex;
     flex-direction: column;
@@ -266,7 +268,7 @@ footer {
 
 }
 
-.section-three-list:last-child {
+.section-three-list-item:last-child {
     margin-right: 0;
 }
 
