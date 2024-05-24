@@ -168,18 +168,19 @@ body,
     margin-bottom: 72px;
 }
 
+
 .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
 .section-two-list {
  list-style-type: none;
  display: flex;
@@ -237,7 +238,7 @@ footer {
 .section-three-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    width: calc((100% - 3 * 24px) / 4);
+    
     margin-right: 24px;
 }
 
@@ -254,6 +255,7 @@ footer {
     flex-wrap: wrap;
     gap: 24px;
     margin: 72px 156px 120px ;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .section-three-list:last-child {
@@ -272,8 +274,13 @@ footer {
     border-width: 0 1px 1px 1px;
 }
 
+.section-three-list-item-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .section-four {
-    padding: 120px 156px;
+    padding: 120px 0 120px 0;
 }
 
 .footer span {
