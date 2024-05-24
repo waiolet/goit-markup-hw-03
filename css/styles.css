@@ -255,7 +255,6 @@ footer {
     list-style-type: none;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 72px 156px 120px ;
     width: calc((100% - 3 * 24px) / 4);
     padding-left: 0;
     margin: 0;
