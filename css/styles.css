@@ -20,6 +20,7 @@ body,
     background-color: #FFFFFF;
 }
 
+.container-header.container,
 .container {
     margin: 0;
     padding: 0 15px;
