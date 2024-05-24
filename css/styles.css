@@ -242,7 +242,6 @@ footer {
 .section-three-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;  
-    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -254,7 +253,9 @@ footer {
     text-align: center;
     padding: 32px 0;
     column-gap: 8px;
-    width: inherit;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
     
 }
 
