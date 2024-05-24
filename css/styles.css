@@ -255,9 +255,9 @@ footer {
     list-style-type: none;
     flex-wrap: wrap;
     gap: 24px;
-    width: calc((100% - 3 * 24px) / 4);
     padding-left: 0;
     margin: 0;
+
 }
 
 .section-three-list:last-child {
