@@ -279,6 +279,7 @@ footer {
     flex-wrap: wrap;
     gap: 48px 24px;
     justify-content: space-between;
+    padding-left: 0;
 }
 
 .section-four-list-item: {
