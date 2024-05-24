@@ -238,9 +238,9 @@ footer {
 
 .section-three-list-item {
     background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    
+    border-radius: 0 0 4px 4px;  
     margin-right: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-three-list-item-text {
