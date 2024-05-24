@@ -195,6 +195,7 @@ body,
 
 .section-two {
     padding: 120px 0;
+    width: 100%;
 }
 
 .section-two-list-item {
@@ -246,9 +247,12 @@ footer {
 }
 
 .section-three-list-item-text {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 32px 0;
     column-gap: 8px;
+    width: inherit;
     
 }
 
