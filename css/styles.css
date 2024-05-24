@@ -149,8 +149,6 @@ body,
     min-width: 169px;
     height: 56px;
     border: none;
-    
-    
 }
 
 .button:hover,
@@ -181,10 +179,13 @@ body,
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .section-two-list {
- list-style-type: none;
- display: flex;
- gap: 24px;
+   list-style-type: none;
+   display: flex;
+   gap: 24px;
+   padding-left: 0;
+   margin: 0;
 }
 
 .section-two {
