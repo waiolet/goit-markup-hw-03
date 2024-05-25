@@ -9,8 +9,16 @@ img{
     display: block;
 }
 
-body,
-.body {
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Roboto, sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -57,6 +65,8 @@ body,
     display: flex;
     gap: 40px;
     align-items: center;  
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -71,7 +81,7 @@ body,
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-right: 40px;
+    display: block;
     padding: 24px 0;
 }
 
@@ -89,6 +99,14 @@ body,
     margin-right: 40px;
 }
 
+address {
+    margin-left: auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
 .address-list:last-child {
     margin-right: 0;
 }
@@ -104,7 +122,6 @@ body,
 
 .container-header {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 24px 156px;
@@ -248,15 +265,9 @@ footer {
 
 
 .section-three-list-item-text {
-    display: flex;
-    flex-direction: column;
+    display: block;
     text-align: center;
     padding: 32px 0;
-    column-gap: 8px;
-    width: 100%;
-    justify-content: center;
-    margin: auto;
-    
 }
 
 .section-three-list{
@@ -308,7 +319,6 @@ footer {
 .body-footer {
     width: 264px; 
 }
-
 
 .logo-footer {
     font-family: Raleway, sans-serif;
